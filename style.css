@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    background-image: url(images/backgroundimg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid grey;
+    padding: 20px 30px 10px 40px;
+    
+}
+
+h1{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h2{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+span{
+    font-weight: bolder;
+}
+
+img[src="images/apj.jpg"]{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.sp{
+    text-align: center;
+    font-size: medium;
+    margin-top: -1px;
+    color: aliceblue;
+}
+
+p{
+    text-align: right;
+}
+
+h4{
+    text-align: center;
+}
+
+.hello{
+    text-align: right;
+    font-size: small;
+}
+a{
+    color: blue;
+}
+
+a:hover{
+color: brown;
+}
+
+a:visited{
+    color:  rgb(21, 140, 192);
+}
